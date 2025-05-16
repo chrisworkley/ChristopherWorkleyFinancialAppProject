@@ -13,11 +13,5 @@ const HeaderBox = ({ type = "title", title, subtext, user }: HeaderBoxProps) => 
     </div>
   )
 }
-type HeaderBoxProps = {
-  type: string;
-  title: string;
-  subtext: string;
-  user?: string; // Added the 'user' property
-  name?: string; // Added the 'name' property
-};
+
 export default HeaderBox
