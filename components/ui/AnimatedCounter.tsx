@@ -4,9 +4,9 @@ import CountUp from "react-countup";
 
 const AnimatedCounter = ({amount}:{amount: number }) => {
   return (
-    <div>
+    <span>
       <CountUp end={amount} />
-    </div>
+    </span>
   )
 }
 
